@@ -14,16 +14,12 @@ public:
   ImageButton() = default;
 
   explicit ImageButton(QWidget *parent);
-
   void paintEvent(QPaintEvent *e) override;
 
   [[nodiscard]] QSize sizeHint() const override;
-
   [[nodiscard]] QSize minimumSizeHint() const override;
 
   void keyPressEvent(QKeyEvent *e) override;
-
   void setDown();
-
   void setUp();
 };

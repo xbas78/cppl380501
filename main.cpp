@@ -16,7 +16,6 @@
 форму ниже пришлите ссылку на repl.it или файл CPP с решением.
 ------------------------------------------------------------------------------*/
 #include <QApplication>
-
 #include "imagebutton.h"
 
 int main(int argc, char *argv[]) {
